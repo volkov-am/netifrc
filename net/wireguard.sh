@@ -5,7 +5,7 @@
 
 wireguard_depend()
 {
-	program /usr/bin/wg
+	program ip /usr/bin/wg
 	after interface
 }
 
